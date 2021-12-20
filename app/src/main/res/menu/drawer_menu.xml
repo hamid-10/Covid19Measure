@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_stats"
+            android:title="@string/statistics"/>
+
+        <item android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="@string/map_view"/>
+    </group>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item android:id="@+id/nav_reset"
+                android:icon="@drawable/ic_reset_list"
+                android:title="@string/default_stats"/>
+            <item android:id="@+id/nav_language"
+                android:icon="@drawable/ic_language"
+                android:title="@string/languages"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/item_details">
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/country_name"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+    <TextView
+        android:id="@+id/total_cases_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_cases"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"/>
+
+
+    <TextView
+        android:id="@+id/total_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/total_cases_text"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/recovered_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recovered"
+        android:layout_below="@+id/total_cases_text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/recovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_cases"
+        android:layout_toRightOf="@id/recovered_text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/deaths_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deaths"
+        android:layout_below="@id/recovered_text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/deaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recovered"
+        android:layout_toRightOf="@id/deaths_text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/active_cases_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/active_cases"
+        android:layout_below="@+id/deaths_text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/active_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deaths"
+        android:layout_toRightOf="@id/active_cases_text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/source_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/source"
+        android:layout_below="@id/active_cases_text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/active_cases"
+        android:layout_toRightOf="@id/source_text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_light"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

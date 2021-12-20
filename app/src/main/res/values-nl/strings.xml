@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19 Measure</string>
+
+    <string name="navigation_drawer_open">Open de navigatielade</string>
+    <string name="navigation_drawer_close">Sluit de navigatielade</string>
+
+    <string name="statistics">Statistieken</string>
+    <string name="map_view">Kaartweergave</string>
+    <string name="settings">Instellingen</string>
+    <string name="default_stats">Terug naar basis instellingen</string>
+    <string name="languages">Verander taal</string>
+
+    <string name="application">Corona-maat</string>
+    <string name="application_info">Covid-19 Stats Updates</string>
+
+    <string name="list_search">Zoek naar staat / land</string>
+
+    <string name="db_update">Gegevens bijwerken</string>
+    <string name="change_language">Verander taal</string>
+
+    <string name="map_open">Kaart openen</string>
+    <string name="map_ready">Kaart is klaar</string>
+
+    <string name="stat_remove">Corona-statistieken verwijderen van</string>
+    <string name="language_settings">Taal instellingen</string>
+    <string name="stats_list_restore">Lijst met gegevens herstellen</string>
+
+    <string name="delete_all">Verwijder alle statistieken</string>
+    <string name="all_stats_removed">Alle statistieken verwijderd</string>
+
+    <string name="infected">Besmet: \</string>
+    <string name="deaths">Sterfgevallen: \</string>
+
+    <string name="maps_search">Voer adres, stad of postcode in</string>
+
+    <string name="total_cases">Totaal gevallen: \</string>
+    <string name="recovered">Hersteld: \</string>
+    <string name="active_cases">Actieve gevallen: \</string>
+    <string name="source">Bron: /</string>
+</resources>

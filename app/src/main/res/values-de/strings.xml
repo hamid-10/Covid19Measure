@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19 Measure</string>
+
+    <string name="navigation_drawer_open">Öffnen Sie die Navigationsschublade</string>
+    <string name="navigation_drawer_close">Schließen Sie die Navigationsschublade</string>
+
+    <string name="statistics">Statistiken</string>
+    <string name="map_view">Kartenansicht</string>
+    <string name="settings">die Einstellungen</string>
+    <string name="default_stats">Standard zurücksetzen</string>
+    <string name="languages">Sprache ändern</string>
+
+    <string name="application">Corona-Maßnahme</string>
+    <string name="application_info">Covid-19-Statistik-Updates</string>
+
+    <string name="list_search">Suche nach Bundesland / Land</string>
+
+    <string name="db_update">Daten aktualisieren</string>
+    <string name="change_language">Sprache ändern</string>
+
+    <string name="map_open">Karte öffnen</string>
+    <string name="map_ready">Karte ist fertig</string>
+
+    <string name="stat_remove">Corona-Statistiken von entfernen</string>
+    <string name="language_settings">Spracheinstellungen</string>
+    <string name="stats_list_restore">Liste der Daten wiederherstellen</string>
+
+    <string name="delete_all">Alle Statistiken löschen</string>
+    <string name="all_stats_removed">Alle Statistiken entfernt</string>
+
+    <string name="infected">Infiziert: \</string>
+    <string name="deaths">Todesfälle: \</string>
+
+    <string name="maps_search">Geben Sie Adresse, Stadt oder Postleitzahl ein</string>
+
+    <string name="total_cases">Fälle insgesamt: \</string>
+    <string name="recovered">Wiederhergestellt: \</string>
+    <string name="active_cases">Aktuelle Fälle: \</string>
+    <string name="source">Quelle: \</string>
+</resources>

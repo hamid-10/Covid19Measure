@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19 Measure</string>
+
+    <string name="navigation_drawer_open">افتح درج التنقل</string>
+    <string name="navigation_drawer_close">أغلق درج التنقل</string>
+
+    <string name="statistics">إحصائيات</string>
+    <string name="map_view">عرض الخريطة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="default_stats">إعادة تعيين الافتراضي</string>
+    <string name="languages">تغيير اللغة</string>
+    <string name="application">تطبيقي</string>
+    <string name="application_info">معلومات أخرى</string>
+    <string name="list_search">ابحث عن الدولة / البلد</string>
+
+    <string name="db_update">تحديث البيانات</string>
+    <string name="change_language">تغيير اللغة</string>
+
+    <string name="map_open">فتح الخريطة</string>
+    <string name="map_ready">الخريطة جاهزة</string>
+
+    <string name="stat_remove">إزالة إحصائيات كورونا</string>
+    <string name="language_settings">اعدادات اللغة</string>
+    <string name="stats_list_restore">استعادة قائمة البيانات</string>
+
+    <string name="delete_all">حذف جميع الإحصائيات</string>
+    <string name="all_stats_removed">تمت إزالة جميع الإحصائيات</string>
+
+    <string name="infected"> :مصاب</string>
+    <string name="deaths"> :حالات الوفاة</string>
+
+    <string name="maps_search">Voer adres, stad of postcode in</string>
+
+    <string name="total_cases"></string>
+    <string name="recovered"></string>
+    <string name="active_cases"></string>
+    <string name="source"></string>
+</resources>

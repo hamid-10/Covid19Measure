@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#08394a">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/stats_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/country_statistics_item"/>
+</android.support.design.widget.CoordinatorLayout>
+
+<!--Layout was changed from Coordinator Layout to Constraint Layout ... just in case-->

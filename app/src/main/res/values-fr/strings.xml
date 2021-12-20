@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19 Measure</string>
+
+    <string name="navigation_drawer_open">Ouvrez le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermez le tiroir de navigation</string>
+
+    <string name="statistics">Statistiques</string>
+    <string name="map_view">Vue de la carte</string>
+    <string name="settings">Réglages</string>
+    <string name="default_stats">Réinitialiser par défaut</string>
+    <string name="languages">Changer de langue</string>
+
+    <string name="application">Mesure Corona</string>
+    <string name="application_info">Mises à jour des statistiques de Covid-19</string>
+
+    <string name="list_search">Recherche par état / pays</string>
+
+    <string name="db_update">Mise à jour des données</string>
+    <string name="change_language">Changer de Langue</string>
+
+    <string name="map_open">Ouvrir la Carte</string>
+    <string name="map_ready">Carte est prête</string>
+
+    <string name="stat_remove">Suppression des statistiques Corona de</string>
+    <string name="language_settings">Paramètres de langue</string>
+    <string name="stats_list_restore">Restauration de la liste des données</string>
+
+    <string name="delete_all">Supprimer toutes les statistiques</string>
+    <string name="all_stats_removed">Toutes les statistiques supprimées</string>
+
+    <string name="infected">Infecté: \</string>
+    <string name="deaths">Décès: \</string>
+
+    <string name="maps_search">Entrez l\'adresse, la ville ou le code postal</string>
+
+    <string name="total_cases">Nombre total de cas: \</string>
+    <string name="recovered">Rétabli: \</string>
+    <string name="active_cases">Cas actifs: \</string>
+    <string name="source">La source: \</string>
+</resources>

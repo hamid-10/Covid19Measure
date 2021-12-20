@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatsDetails">
+
+    <FrameLayout
+        android:id="@+id/fragment_details_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="InvalidId">
+<!--        <fragment-->
+<!--            android:id="@+id/stats_item_details"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            class="nl.inholland.lafkiri.covid_19measure.StatsDetailsFragment">-->
+<!--        </fragment>-->
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
